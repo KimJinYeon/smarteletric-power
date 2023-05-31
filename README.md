@@ -19,6 +19,10 @@ Spring Boot 2.7.2 및 JDK 11, MongoDB 3.4.8을 기반으로 한 서비스입니�
 
 # 스마트 전기앱 프로젝트 소개
 
+<image src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe57339d8-faae-45eb-b62d-ce362e4c1fbc%2FSlide1.png?id=92ee8420-af15-4b0b-8866-f7d3da947b19&table=block&spaceId=a798c901-490b-420a-a776-a75896044061&width=2000&userId=014061e9-580c-437e-9b2d-e8c4337b4659&cache=v2">
+  
+<image src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc54e56f-a562-489e-9359-962878e3cb48%2FUntitled.png?id=877cb39b-d6b1-497d-aa80-99b42df5f268&table=block&spaceId=a798c901-490b-420a-a776-a75896044061&width=2000&userId=014061e9-580c-437e-9b2d-e8c4337b4659&cache=v2">
+
 이 프로젝트는 효율적인 전력 사용과 전기 요금 절약을 돕는 서비스입니다. 사용자들은 실시간 전력 사용량을 편리하게 확인하고, 이번 달 전기 요금을 예측할 수 있으며, 집 안 스마트 플러그와 연동하여 전력 사용량을 모니터링할 수 있습니다.
 
 ## 목적 및 필요성
