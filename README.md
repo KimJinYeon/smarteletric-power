@@ -1,7 +1,7 @@
 # smarteletric-power
 
-이 서비스는 한국전력공사의 컴플라이언스를 준수하면서 사용자 데이터를 저장하고 제공하는 기능을 제공합니다. <br>
-smartelectric-power는 Spring Boot 2.7.2 및 JDK 11, MongoDB 3.4.8을 기반으로 한 서비스입니다.
+smartelectric-power는 한국전력공사의 컴플라이언스를 준수하면서 사용자 데이터를 저장하고 제공하는 기능을 제공합니다. <br>
+Spring Boot 2.7.2 및 JDK 11, MongoDB 3.4.8을 기반으로 한 서비스입니다.
 
 ## 주요 기능
 
@@ -10,7 +10,7 @@ smartelectric-power는 Spring Boot 2.7.2 및 JDK 11, MongoDB 3.4.8을 기반으�
 3. 과거 전력 사용량 조회: 사용자는 과거의 전력 사용량을 조회할 수 있습니다.
 
 ## 기술 스택
-<br>
+
 프레임워크: Spring Boot 2.7.2 <br>
 자바 버전: JDK 11 <br>
 데이터베이스: MongoDB 3.4.8 <br>
