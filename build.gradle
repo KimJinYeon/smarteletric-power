@@ -1,0 +1,61 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.2'
+	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+	id 'java'
+}
+
+group = 'com.kapple'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'junit:junit:4.13.2'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+	// auth0 jwt dependency
+	implementation 'com.auth0:java-jwt:4.0.0'
+
+
+	// resilience4j spring boot2 dependency
+	// spring boot aop dependency
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	// resilience4j retry dependency
+	implementation 'io.github.resilience4j:resilience4j-retry:1.7.1'
+	// resilience4j circuit breaker dependency
+	implementation 'io.github.resilience4j:resilience4j-circuitbreaker:1.7.1'
+
+	// httpclient dependency
+	implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+	// json dependency
+	implementation 'org.json:json:20220320'
+	// gson
+	implementation 'com.google.code.gson:gson:2.9.0'
+
+	// test용 몽고DB 만들기
+	// embedded mongoDB(de.flapdoodle) dependency
+	testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:3.4.8'
+
+	// junit 5 dependency
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
